@@ -55,6 +55,12 @@
     size: 120%;
   }
 
+  .fa-google{
+    background: #550000;
+    color: white;
+    size: 120%;
+  }
+
   .navbar {
     margin: auto;
     width: 50%;
