@@ -1,0 +1,54 @@
+.navbar {
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    /* navigation bar */
+  }
+
+.navbar-nav{
+    padding-left:10%;
+    padding-right:10%;
+    /* navigation bad padding;space between elements */
+  }
+
+  .body{
+    background-color: rgb(168, 111, 111);
+    /* background color of the whole page */
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .divlimwidth{
+    width: 90%;
+  }
+
+  html, body {
+    max-width: 100%;
+}
+
+.parent {
+  border: 0px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: 0px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.fleft{
+  float: left;
+}
+
+.fright{
+  float: right;
+}
