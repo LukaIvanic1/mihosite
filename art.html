@@ -16,7 +16,9 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/art.css">
   <script src="js/art.js"></script>
+
   <link rel="icon" href="logo/favicon.png">
+  <link href="css/lightbox.css" rel="stylesheet" />
 </head>
 
 <body style="background-color: rgb(148, 148, 148)">
@@ -65,102 +67,28 @@
     <br>
     <br>
     <br>
-    <!--This is the messiest html I've written in a while but I can't be arsed to clean it up. It's for a personal project so I'm the only one working on it anyway! BLEEEEH :P-->
-    <section class="gallery min-vh-100">
-      <div class="container-lg">
-        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-          <div class="col">
-            <img src="images/ISNTSOBLACKANDWHITE1.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/cosmic.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/cyberliquid!!!!!.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/dead but dreaming.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/enclose.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/flamingo!!!!!!!!!.jpg" class="gallery-item" alt="gallery">
-          </div>
-        </div>
-        <br>
-        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-          <div class="col">
-            <img src="images/gajkes.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/jell.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/kobra!!!.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/lightskin rizz.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/maidcynical.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/ockfinish.jpg" class="gallery-item" alt="gallery">
-          </div>
-        </div>
-        <br>
-        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-          <div class="col">
-            <img src="images/one of you.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/orcksk.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/ribcage angel.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/severed fairy.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/slikikik.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/tajeeeeee.jpg" class="gallery-item" alt="gallery">
-          </div>
-        </div>
-        <br>
-        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-          <div class="col">
-            <img src="images/x.jpg" class="gallery-item" alt="gallery">
-          </div>
-          <div class="col">
-            <img src="images/xddd.jpg" class="gallery-item" alt="gallery">
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <img src="images/" class="modal-img" alt="modal img">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-
+    <a href="images/cosmic.jpg" data-lightbox="example-2"><img src="thumbnails/cosmic.jpg" class="image"></a>
+    <a href="images/cyberliquid!!!!!.jpg" data-lightbox="example-2"><img src="thumbnails/cyberliquid!!!!!.jpg" class="image"></a>
+    <a href="images/dead but dreaming.jpg" data-lightbox="example-2"> <img src="thumbnails/dead but dreaming.jpg" class="image"></a>
+    <a href="images/enclose.jpg" data-lightbox="example-2"><img src="thumbnails/enclose.jpg" class="image"></a>
+    <a href="images/flamingo!!!!!!!!!.jpg" data-lightbox="example-2"><img src="thumbnails/flamingo!!!!!!!!!.jpg" class="image"></a>
+    <a href="images/gajkes.jpg" data-lightbox="example-2"><img src="thumbnails/gajkes.jpg" class="image"></a>
+    <a href="images/ISNTSOBLACKANDWHITE1.jpg" data-lightbox="example-2"><img src="thumbnails/ISNTSOBLACKANDWHITE1.jpg" class="image"></a>
+    <a href="images/jell.jpg" data-lightbox="example-2"> <img src="thumbnails/jell.jpg" class="image"></a>
+    <a href="images/kobra!!!.jpg" data-lightbox="example-2"><img src="thumbnails/kobra!!!.jpg" class="image"></a>
+    <a href="images/lightskin rizz.jpg" data-lightbox="example-2"><img src="thumbnails/lightskin rizz.jpg" class="image"></a>
+    <a href="images/maidcynical.jpg" data-lightbox="example-2"><img src="thumbnails/maidcynical.jpg" class="image"></a>
+    <a href="images/ockfinish.jpg" data-lightbox="example-2"><img src="thumbnails/ockfinish.jpg" class="image"></a>
+    <a href="images/one of you.jpg" data-lightbox="example-2"><img src="thumbnails/one of you.jpg" class="image"></a>
+    <a href="images/orcksk.jpg" data-lightbox="example-2"><img src="thumbnails/orcksk.jpg" class="image"></a>
+    <a href="images/ribcage angel.jpg" data-lightbox="example-2"><img src="thumbnails/ribcage angel.jpg" class="image"></a>
+    <a href="images/severed fairy.jpg" data-lightbox="example-2"><img src="thumbnails/severed fairy.jpg" class="image"></a>
+    <a href="images/slikikik.jpg" data-lightbox="example-2"><img src="thumbnails/slikikik.jpg" class="image"></a>
+    <a href="images/tajeeeeee.jpg" data-lightbox="example-2"><img src="thumbnails/tajeeeeee.jpg" class="image"></a>
+    <a href="images/x.jpg" data-lightbox="example-2"><img src="thumbnails/x.jpg" class="image"></a>
+    <a href="images/xddd.jpg" data-lightbox="example-2"><img src="thumbnails/xddd.jpg" class="image"></a>
+    <script src="js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>

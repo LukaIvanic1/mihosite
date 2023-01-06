@@ -69,3 +69,7 @@
   #gallery-modal .modal-img{
     width: 100%;
   }
+  
+  .image{
+    margin: 4px;
+  }
