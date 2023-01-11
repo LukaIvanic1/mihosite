@@ -17,6 +17,7 @@
     flex-direction: row;
     justify-content: center;
     margin: 10px;
+    justify-content: space-between;
   }
 
    /* Style all font awesome icons */
@@ -66,6 +67,9 @@
     width: 50%;
     justify-content: center;
     /* navigation bar */
+    list-style-type: none;
+
+    background-color: rgb(19, 62, 64);
   }
 
 .navbar-nav{
@@ -73,3 +77,20 @@
     padding-right:10%;
     /* navigation bad padding;space between elements */
   }
+
+  .highlight{
+    background-color: rgb(19, 62, 64);
+  }
+
+.nav-link{
+  color: rgb(128,128,128);
+}
+
+
+.title{
+  color: rgb(128,128,128);
+}
+
+.meow{
+  background-color:rgb(19, 62, 64);
+}
