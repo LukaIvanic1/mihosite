@@ -3,6 +3,9 @@
     width: 50%;
     justify-content: center;
     /* navigation bar */
+    list-style-type: none;
+
+    background-color: rgb(19, 62, 64);
   }
 
 .center {
@@ -23,13 +26,14 @@
     /* navigation bad padding;space between elements */
   }
 
-.body{
-  background-color: rgb(148, 148, 148);
-  /* background color of the whole page */
-}
+  .body{
+    background-color: rgb(22, 20, 25);
+    /* background color of the whole page */
+  }
 
 .carousel{
   margin: auto;
+
 }
 
 * {box-sizing:border-box}
@@ -39,8 +43,11 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+
   
 }
+
+
 
 /* Hide the images by default */
 .mySlides {
@@ -78,7 +85,7 @@ display: none;
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 8px 12px; 
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -99,6 +106,8 @@ display: none;
   background-color: #717171;
 }
 
+
+
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -114,3 +123,15 @@ display: none;
 .border{
   width: 5px;
 }
+
+.nav-link{
+  color: rgb(128,128,128);
+}
+
+
+.title{
+  color: rgb(128,128,128);
+}
+
+
+
